@@ -63,6 +63,47 @@ main {
   background-color: #1c1c1c;
   color: #fff;
   padding: 3.125rem;
-  font-size: 1.375rem;
   font-weight: 600;
+}
+
+/* ----------------
+      FOOTER
+  ---------------- */
+/* FOOTER TOP */
+footer {
+  background-color: #058af9;
+  padding: 3.75rem;
+}
+
+.footer-top img {
+  height: 3.125rem;
+}
+
+.footer-top li:last-child img {
+  width: 3.125rem;
+}
+
+.footer-top ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-top ul li {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 500;
+  gap: 0.625rem;
+}
+
+.footer-top a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* FOOTER MID */
+.footer-mid {
+  background-image: url(/public/img/footer-bg.jpg);
 }
