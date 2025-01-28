@@ -87,6 +87,8 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
 }
 
 .footer-top ul li {
@@ -105,15 +107,22 @@ main {
 
 /* FOOTER MID */
 .footer-mid {
+  background-image: url(/public/img/footer-bg.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.footer-mid .container {
   display: flex;
   justify-content: space-between;
-  background-image: url(/public/img/footer-bg.jpg);
+  padding: 1.875rem 0;
 }
 
 .logo-bg {
   background-image: url(/public/img/dc-logo-bg.png);
-  background-position: center;
-  background-size: cover;
+  height: 500px;
+  width: 500px;
+  background-repeat: no-repeat;
   z-index: 0.625rem;
 }
 
@@ -132,4 +141,9 @@ main {
 .link-info li {
   list-style: none;
   font-size: 14px;
+}
+
+.link-info li a {
+  text-decoration: none;
+  color: #fff;
 }

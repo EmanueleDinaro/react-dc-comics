@@ -33,53 +33,106 @@ export default function Footer() {
             <div className="col">
               <ul>
                 <h3>dc comics</h3>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
               </ul>
               <br />
               <ul>
                 <h3>shop</h3>
-                <li>sample</li>
-                <li>sample</li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
               </ul>
             </div>
             <div className="col">
               <ul>
                 <h3>dc</h3>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
               </ul>
             </div>
             <div className="col">
               <ul>
                 <h3>sites</h3>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
-                <li>sample</li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
+                <li>
+                  <a href="#">sample</a>
+                </li>
               </ul>
             </div>
           </div>
+          <div className="logo-bg"></div>
         </div>
-
-        <div className="logo-bg"></div>
       </div>
       <div className="footer-bot"></div>
     </footer>
