@@ -70,7 +70,7 @@ main {
       FOOTER
   ---------------- */
 /* FOOTER TOP */
-footer {
+.footer-top {
   background-color: #058af9;
   padding: 3.75rem;
 }
@@ -105,5 +105,31 @@ footer {
 
 /* FOOTER MID */
 .footer-mid {
+  display: flex;
+  justify-content: space-between;
   background-image: url(/public/img/footer-bg.jpg);
+}
+
+.logo-bg {
+  background-image: url(/public/img/dc-logo-bg.png);
+  background-position: center;
+  background-size: cover;
+  z-index: 0.625rem;
+}
+
+.link-info {
+  display: flex;
+  gap: 40px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.link-info h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.link-info li {
+  list-style: none;
+  font-size: 14px;
 }
