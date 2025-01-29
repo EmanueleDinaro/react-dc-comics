@@ -1,3 +1,5 @@
+import footerLinks from "../../data/footerLinks";
+
 export default function Footer() {
   return (
     <footer>
@@ -30,106 +32,22 @@ export default function Footer() {
       <div className="footer-mid">
         <div className="container">
           <div className="link-info">
-            <div className="col">
-              <ul>
-                <h3>dc comics</h3>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-              </ul>
-              <br />
-              <ul>
-                <h3>shop</h3>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-              </ul>
-            </div>
-            <div className="col">
-              <ul>
-                <h3>dc</h3>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-              </ul>
-            </div>
-            <div className="col">
-              <ul>
-                <h3>sites</h3>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-                <li>
-                  <a href="#">sample</a>
-                </li>
-              </ul>
-            </div>
+            {footerLinks.map((footerCol) => {
+              return (
+                <div className="col" key={footerCol.id}>
+                  <h3>{footerCol.category}</h3>
+                  <ul>
+                    {footerCol.links.map((link) => {
+                      return (
+                        <li key={link.id}>
+                          <a href={link.url}>{link.title}</a>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              );
+            })}
           </div>
           <div className="logo-bg"></div>
         </div>

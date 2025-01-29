@@ -13,7 +13,7 @@ export default [
     ],
   },
   {
-    id: 1,
+    id: 2,
     category: "shop",
     links: [
       { id: "1", title: "Shop DC", url: "#" },
@@ -21,7 +21,7 @@ export default [
     ],
   },
   {
-    id: 1,
+    id: 3,
     category: "dc",
     links: [
       { id: "1", title: "Terms Of Use", url: "#" },
@@ -38,7 +38,7 @@ export default [
     ],
   },
   {
-    id: 1,
+    id: 4,
     category: "sites",
     links: [
       { id: "1", title: "DC", url: "#" },
