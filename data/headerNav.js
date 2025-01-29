@@ -1,4 +1,4 @@
-const HeaderLinks = [
+export default [
   {
     id: "1",
     title: "characters",

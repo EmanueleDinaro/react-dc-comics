@@ -1,40 +1,17 @@
+import HeaderNav from "../../data/headerNav";
+
 export default function Header() {
   return (
     <header className="container">
       <img src="/img/dc-logo.png" alt="" />
       <ul>
-        <li>
-          <a href="#">characters</a>
-        </li>
-        <li>
-          <a className="underline" href="#">
-            comics
-          </a>
-        </li>
-        <li>
-          <a href="#">Movies</a>
-        </li>
-        <li>
-          <a href="#">tv</a>
-        </li>
-        <li>
-          <a href="#">games</a>
-        </li>
-        <li>
-          <a href="#">collectibles</a>
-        </li>
-        <li>
-          <a href="#">videos</a>
-        </li>
-        <li>
-          <a href="#">fans</a>
-        </li>
-        <li>
-          <a href="#">news</a>
-        </li>
-        <li>
-          <a href="#">shop</a>
-        </li>
+        {HeaderNav.map((link) => {
+          return (
+            <li key={link.id}>
+              <a href={link.url}>{link.title}</a>
+            </li>
+          );
+        })}
       </ul>
     </header>
   );
