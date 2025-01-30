@@ -1,6 +1,6 @@
-export default function ProductCard({ thumb, series }) {
+export default function ComicCard({ thumb, series }) {
   return (
-    <div className="comics-card">
+    <div className="col">
       <img src={thumb} alt={series} />
       <h3>{series}</h3>
     </div>
