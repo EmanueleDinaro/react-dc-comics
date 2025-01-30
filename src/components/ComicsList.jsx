@@ -9,7 +9,7 @@ export default function ComicsList() {
           {comics.map((comic) => {
             return (
               <div className="col" key={comic.id}>
-                <ComicCard image={comic.thumb} title={comic.series} />
+                <ComicCard thumb={comic.thumb} series={comic.series} />
               </div>
             );
           })}
