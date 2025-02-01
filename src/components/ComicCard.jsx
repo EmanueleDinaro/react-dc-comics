@@ -1,8 +1,8 @@
-export default function ComicCard({ thumb, series }) {
+export default function ComicCard({ thumb, title }) {
   return (
     <div className="card">
-      <img src={thumb} alt={series} />
-      <h3>{series}</h3>
+      <img src={thumb} alt={title} />
+      <h3>{title}</h3>
     </div>
   );
 }
