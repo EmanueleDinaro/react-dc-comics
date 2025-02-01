@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-mid">
-        <div className="container">
+        <div className="container logo-bg">
           <div className="link-info">
             {footerLinks.map((footerCol) => {
               return (
@@ -49,7 +49,7 @@ export default function Footer() {
               );
             })}
           </div>
-          <div className="logo-bg"></div>
+          <div className=""></div>
         </div>
       </div>
       <div className="footer-bot"></div>

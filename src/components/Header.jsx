@@ -8,7 +8,9 @@ export default function Header() {
         {HeaderNav.map((link) => {
           return (
             <li key={link.id}>
-              <a href={link.url}>{link.title}</a>
+              <a href={link.url} className={link.action}>
+                {link.title}
+              </a>
             </li>
           );
         })}
